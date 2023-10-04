@@ -1,0 +1,32 @@
+
+
+   table,th,td
+   {
+	 border:20px rgb(242, 234, 234);
+   }
+   table
+   {
+	 border-collapse:collapse;
+	 width:80%;
+	 padding-left: 40px;
+	 padding-right: 40ox;
+   }
+   td
+   {
+	 height:80px;
+   }
+   tr:nth-child(3)
+   {
+	 background-color:rgb(227, 222, 222);
+	 color:black;
+   }
+   tr:nth-child(1)
+   {
+	 background-color:rgb(227, 222, 222);
+	 color:black;
+   }
+   th
+   {
+	 background-color:white;
+	 color:black;
+   }

@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>My Shophive</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="top-link-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-1 col-md-1 col-sm-1 col-2"></div>
+            <div class="col-lg-5 col-md-4 col-sm-4 col-10">
+              <span class="txt-welcome">Welcome to Shophive! </span>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+            <div class="col-lg-5 col-md-6 col-sm-6 col-11">
+              <ul class="top-link">
+                <!-- Conditional fields -->
+                  <!-- <li><span class="txt-welcome">welcome abc.com </span></li> -->
+                  <!-- <li>
+                    <form action="logout.php" method="post">
+                      <input type="submit" value="Log Out" name="logout" class="btn txt-welcome pt-0 pb-0" class="form-control" >
+                    </form>
+                  </li> -->
+                  <li><a href="login.php">My Account</a></li>
+                  <li><a href="myCart.php">My Cart</a></li>
+              </ul> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12 col-12 mt-4 mb-4 logo">
+            <a href="#"><img src="logo.jpg" style="size: 500px"></a>
+          </div>
+          <div class="col-lg-7 col-md-7 col-sm-12 col-12 mt-4 p-2">
+            <div class="form-inline">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <button class="btn btn-light btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories</button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <input type="text" class="form-control" placeholder="Search Here" aria-label="Text input with dropdown button">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary bg-danger text-light" type="button">Search</button>
+                </div>
+              </div>  
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-12 col-12 mt-4 cart">
+            <a class="text-dark" href="">
+              <span class="fa fa-cart-plus fa-2x"></span><br>
+              <span class="">Your Cart</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <ul class="navbar-nav mr-5 border border-dark bg-danger">
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle ml-4 mr-4 pb-2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="fa fa-bars"></span>
+                All Categories
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      </header>
+
+
+
+
+
+      <!--   Main slider img -->
+
+      <div class="container">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="4000">
+                  <img src="slider1.jpg" class="w-100 h-100 d-block size-slider" alt="First slide">
+                   
+                </div>
+                <div class="carousel-item" data-interval="4000">
+                  <img src="slider2.jpg" class="w-100 h-100 d-block size-slider"alt="Second slide">
+                  
+                </div>
+                 <div class="carousel-item" data-interval="4000">
+                  <img src="slider3.png" class="w-100 h-100 d-block size-slider" alt="Second slide">
+                  
+                </div>
+              </div>
+            </div>
+            </div> 
+
+
+
+             <!-- ............. Brand Start.................. -->
+             <div class="check">
+              <div class="container">
+                <u><h2> Mobiles </h2></u>
+                <div class="">
+                  <a href="#" id="Sumsung"><h3> Sumsung</h3></a>
+                </div>
+                <div class="row">
+                  <div class="row mb-3 mt-3">
+                    <div class="col-lg-5">
+                      <div class="col-lg-2">
+                        <button class="btn btn-primary hide me" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-control="collapseExample1"> See More</button>
+                        
+                      </div>
+                      <div class="col-lg-5"></div>
+                    </div>
+                    <div class="row mb-3 mt-3">
+                    <div class="col-lg-5">
+                      <div class="col-lg-2">
+                        <button class="btn btn-primary hide me1" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-control="collapseExample1"> See Less</button>
+                        </div>
+                      <div class="col-lg-5"></div>
+                    </div>
+                        
+                      </div>
+                  </div>
+                  
+                </div>
+               
+             </div>
+           </div>
+
+
+
+           <!--  Brand start..... -->
+           <div class="container">
+             <div class="mt-5 mb-3">
+               <a href="#" id="Apple"><h3>Apple</h3></a>
+             </div>
+             <div class="row">
+               <div class="row mb-3 mt-3">
+                    <div class="col-lg-5">
+                      <div class="col-lg-2">
+                        <button class="btn btn-primary hide me" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-control="collapseExample1"> See More</button>
+                        
+                      </div>
+                      <div class="col-lg-5"></div>
+                    </div>
+                    <div class="row mb-3 mt-3">
+                    <div class="col-lg-5">
+                      <div class="col-lg-2">
+                        <button class="btn btn-primary hide me1" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-control="collapseExample1"> See Less</button>
+                        </div>
+                      <div class="col-lg-5"></div>
+                    </div>
+                        
+                      </div>
+                  </div>
+                  
+                </div>
+               
+             </div>
+           </div>
+
+           <!-- ................Hwaei -->
+
+
+           <div class="container">
+             <div class="mt-5 mb-3">
+               <a href="#" id="Huawei"><h3>Huawei</h3></a>
+             </div>
+             <div class="row">
+               <div class="row mb-3 mt-3">
+                    <div class="col-lg-5">
+                      <div class="col-lg-2">
+                        <button class="btn btn-primary hide me" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-control="collapseExample1"> See More</button>
+                        
+                      </div>
+                      <div class="col-lg-5"></div>
+                    </div>
+                    <div class="row mb-3 mt-3">
+                    <div class="col-lg-5">
+                      <div class="col-lg-2">
+                        <button class="btn btn-primary hide me1" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-control="collapseExample1"> See Less</button>
+                        </div>
+                      <div class="col-lg-5"></div>
+                    </div>
+                        
+                      </div>
+                  </div>
+                  
+                </div>
+               
+             </div>
+           </div>
+
+             <!-- ................Nokia... -->
+
+
+           <div class="container">
+             <div class="mt-5 mb-3">
+               <a href="#" id="Nokia"><h3>Nokia</h3></a>
+             </div>
+             <div class="row">
+               <div class="row mb-3 mt-3">
+                    <div class="col-lg-5">
+                      <div class="col-lg-2">
+                        <button class="btn btn-primary hide me" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-control="collapseExample1"> See More</button>
+                        
+                      </div>
+                      <div class="col-lg-5"></div>
+                    </div>
+                    <div class="row mb-3 mt-3">
+                    <div class="col-lg-5">
+                      <div class="col-lg-2">
+                        <button class="btn btn-primary hide me1" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-control="collapseExample1"> See Less</button>
+                        </div>
+                      <div class="col-lg-5"></div>
+                    </div>
+                        
+                      </div>
+                  </div>
+                  
+                </div>
+               
+             </div>
+           </div>
+
+
+
+
+
+
+    <footer>
+      <div class="container">
+        <div class="row bg-danger py-2">
+          <div class="col-lg-7 col-md-7 col-sm-12 col-12 py-1">
+            <p>SIGNUP TO
+            <span class="h4">NEWSLETTER FREE SHIPPING</span>
+            FOR FIRST SHOPPING</p>
+          </div>
+          <div class="col-lg-5 col-md-5 col-sm-12 col-12 py-1">
+            <form class="form-inline">
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Enter your email" aria-label="email">
+              </div>
+              <button class="btn btn-outline-dark" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+            <p><b>ShopHive</b> is a premium and first e-Commerce store of Pakistan,Established in 2005</p>
+            <p><span class="fa fa-map-marker" ></span><b>Address:</b> Office 1 Ground Floor Al Hafeez View Liberty Commercial Zone Gulberg III Lahore, Pakistan</p>
+            <p><span class="fa fa-envelope" ></span><b>Email:</b> info@shophive.com</p>
+            <p><span class="fa fa-phone" ></span><b>Phone Number: </b>03111 746 756</p>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+            <p class="h5"><b>INFORMATION</b></p>
+            <div class="mb-3"><a class="text-dark" href="#">Payment Method</a></div>
+            
+            <div class="mb-3"><a class="text-dark" href="#">Shipping Information</a></div>
+            
+            <div class="mb-3"><a class="text-dark" href="#">Price Policy</a></div>
+            
+            <div class="mb-3"><a class="text-dark" href="#">Money Back Guarantee</a></div>
+            
+            <div class="mb-3"><a class="text-dark" href="#">Return Policy</a></div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+            <p class="h5"><b>GET TO KNOW US</b></p>
+            <div class="mb-3"><a class="text-dark" href="#">Help</a></div>
+            
+            <div class="mb-3"><a class="text-dark" href="#">My Account</a></div>
+            
+            <div class="mb-3"><a class="text-dark" href="#">Press</a></div>
+            
+            <div class="mb-3"><a class="text-dark" href="#">Corporate Sales</a></div>
+            
+            <div class="mb-3"><a class="text-dark" href="#" id ="contact">Contact Us</a></div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+            <p class="h5"><b>ON SALE PRODUCTS</b></p> 
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="1000">
+                  <img src="https://via.placeholder.com/100" alt="First slide">
+                    <p><br><a class="text-dark" href="#">Samsung Galaxy S20 Cosmic Grey</a><br>
+                      <span class="text-danger h5"><b>Rs 153,999</b> </span><strike>Rs 173,999</strike>
+                    </p>
+                </div>
+                <div class="carousel-item" data-interval="1000">
+                  <img src="https://via.placeholder.com/100" alt="Second slide">
+                  <p><br><a class="text-dark" href="#">Samsung Galaxy S20 Clouds Blue</a><br>
+                    <span class="text-danger h5"><b>Rs 153,999</b> </span><strike>Rs 173,999</strike>
+                  </p>
+                </div>
+              </div>
+            </div>      
+          </div>
+        </div>
+
+        <div class="row copyright">
+          <div class="col-lg-6 col-md-8 col-sm-12 col-12 py-3">
+            <p>Copyright © 2020 by Shophive.com All Rights Reserved.</p>
+          </div>
+          <div class="col-lg-3 col-md-1 col-sm-0 col-0"></div>
+          <div class="col-lg-3 col-md-3 col-sm-12 col-12 py-2">
+            <img src="https://via.placeholder.com/50">
+            <img src="https://via.placeholder.com/50">
+          </div>
+        </div>
+      </div>
+
+    </footer>
+    
+
+    
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
+
